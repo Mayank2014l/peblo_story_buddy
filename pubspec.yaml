@@ -1,0 +1,39 @@
+name: peblo_story_buddy
+description: >
+  Peblo AI Story Buddy & Quiz — AI-powered edutainment storytelling and
+  comprehension quizzes for children, built on the Peblo platform.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── State Management ──────────────────────────────────────────────────────────
+  flutter_riverpod: ^2.6.1
+
+  # ── Text-to-Speech ────────────────────────────────────────────────────────────
+  flutter_tts: ^4.2.0
+
+  # ── Animation ─────────────────────────────────────────────────────────────────
+  confetti: ^0.7.0
+  flutter_animate: ^4.5.0
+  lottie: ^3.1.2
+
+  # ── Typography ────────────────────────────────────────────────────────────────
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  # Assets will be added in Phase 2 when Buddy artwork is finalised.
+  # assets:
+  #   - assets/animations/
+  #   - assets/images/
